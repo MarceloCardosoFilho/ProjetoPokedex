@@ -9,7 +9,6 @@ formulario.addEventListener('submit', function(e){
 
     urlForm = urlForm + this.name.value
     urlForm = urlForm.toLocaleLowerCase()
-    
 
     let resposta = document.getElementById('content')
 
